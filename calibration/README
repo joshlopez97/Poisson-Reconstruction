@@ -5,7 +5,7 @@ project_error_skel.m
 -- skeleton code for 2
 calibrate_skel.m
 
--- script for testing your calibrate function on the provide images
+-- script for testing the calibrate function
 calibrate_script.m
 
 -- calibration images for 3.1-3.3
@@ -16,18 +16,12 @@ right_calib.jpg
 
 
 
--- function for semiautomatic location of checkerboard grid points (used in calibrate)
+-- function for semiautomatic location of checkerboard grid points
 mapgrid.m
   -- helper functions for mapgrid
   harris.m
   homography.m
   mapnearest.m
   nonmaxsuppts.m
-
-
--- reference implemention of assignment #2
-
-project.m
-triangulate.m
 
 
